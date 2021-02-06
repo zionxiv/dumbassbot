@@ -1,5 +1,6 @@
 exports.run = (client, message, args) => {
-    if(!message.author.id === "150811536976248832") return;
+    if(!message.author.id === "150811536976248832")
+        return;
 
     if(!args || args.length < 1) 
         return message.reply("you must provide a command name to reload.");
